@@ -1,0 +1,124 @@
+/*Стили Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #F2CB3F;
+    padding: 0 0 0 20%;
+}
+
+/*Обрезка логотипа*/
+    
+
+.logo-container {
+    position: relative;
+    overflow: hidden;
+    width: 141px;
+    height: 68px;
+    
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 141px;
+    height: 68px;
+    object-fit: cover;
+}
+
+/*Стили навигации*/
+nav {
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+
+nav ul li a{
+    color: black;
+    font-size: 1.5em;
+    line-height: 31px;
+}
+
+nav ul li a:hover {
+    color: white;
+    transition: .5s all;
+}
+
+.shopping-basket {
+    background: #000000;
+    width: 26%
+}
+
+.shopping-basket-icon {
+    width: 34px
+}
+
+.carousel-container-text {
+    color: #FFE86D;
+    width: 25%;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    
+}
+
+.carousel-container-text h5 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3.125em;
+    line-height: 100%;
+    text-align: left;
+    
+}
+
+.carousel-container-text p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.750em;
+    line-height: 34px;
+    text-align: left;
+}
+
+.carousel-item img {
+    position: relative;
+}
+
+/*Кнопка - скидка*/
+.discont-button {
+    background: #F2CB3F;
+    width: 280px;
+    height: 65px;
+    border: none;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.375em;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.discont-button:hover {
+    outline: 4px solid black;
+    transition: .3s ease;
+}
+
+/*Корректировка карусели*/
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 80px;
+    height: 140px;
+    background: no-repeat 50%/100% 100%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(/assets/img/icon/button-left.svg);
+
+}
+
+.carousel-control-next-icon {
+    background-image: url(/assets/img/icon/button-right.svg);
+}
