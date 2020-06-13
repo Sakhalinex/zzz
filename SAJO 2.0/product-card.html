@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Стильный Интернет-Магазин SAJO">
+    <meta name="keywords" content="Интернет-магазин, одежда, стиль, мода, джентельмен">
+    <!--connecting viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточка товара</title>
+    
+    <!--Favicon-->
+    <link rel="shortcut icon" href="img/favicon/1616.png" type="image/x-icon">
+    
+    <!--connecting styles-->
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    
+    <!--connecting fonts-->
+    <link type="text/css" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!--connecting media requests-->
+    <link type="text/css" rel="stylesheet" href="css/meida/media.css">
+    
+    <!-- connect styles from CDN -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.css"/>
+
+    <!-- connect default themes  CDN -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick-theme.css"/>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <div class="header__top line">
+                    <div class="header__top-logo">
+                        <a href="index.html">
+                            <img src="img/icons/logo.svg" alt="Магазин одежды">
+                        </a>
+                    </div>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <div class="header__top-menu">
+                        <ul class="header__menu-list">
+                            <li class="header__menu-link"><a href="">Преимущества</a></li>
+                            <li class="open-sub header__menu-link">
+                                Ассортимент
+                                <div class="sub-menu-block">
+                                    <div class="sub-menu-block__container">
+                                        <div class="sub-menu-block__clothes">
+                                            <div class="sub-menu-block__clothes-title">
+                                                <h2>ОДЕЖДА</h2>
+                                            </div>
+                                            <div class="sub-menu-block__clothes-menu">
+                                                <ul>
+                                                    <li class="li-header">МУЖСКАЯ</li>
+                                                    <li><a href="">Костюмы</a></li>
+                                                    <li><a href="">Брюки</a></li>
+                                                    <li><a href="">Ветровки</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="sub-menu-block__shoes">
+                                            <div class="sub-menu-block__clothes-title">
+                                                <h2>ОБУВЬ</h2>
+                                            </div>
+                                            <div class="sub-menu-block__clothes-menu">
+                                                <ul>
+                                                    <li class="li-header">МУЖСКАЯ</li>
+                                                    <li><a href="">By Cerber</a></li>
+                                                    <li><a href="">By Adidas</a></li>
+                                                    <li><a href="">By Puma</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__menu-link"><a href="">Отзывы</a></li>
+                            <li class="header__menu-link"><a href="">Контакты</a></li>
+                            <li class="header__menu-link"><a href="">Доставка</a></li>
+                            <li class="header__menu-link"><a href="">Оплата</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__top-user">
+                        <picture><img class="search" src="img/icons/serch.png" alt=""></picture>
+                        <picture><img class="shop-box" src="img/icons/shop_box.png" alt=""></picture>
+                        <picture><img class="lk" src="img/icons/li.kab.png" alt=""></picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="product-card">
+        <div class="container">
+            <div class="product-card__container">
+                <div class="product-card__address">
+                    <p>Главная / Ассортимент / Костюм <br> By Berdi Begmenov</p>
+                </div>
+                <div class="product-card__content">
+                    <div class="product-card__images">
+                        <div class="product-card__images-common">
+                            <img class="main" src="img/product-card/common.jpg" alt="">
+                        </div>
+                        <div class="product-card__images-detals">
+                            <img class="item" src="img/product-card/detals_1.jpg" alt="">
+                            <img class="item" src="img/product-card/detals_2.jpg" alt="">
+                            <img class="item" src="img/product-card/detals_3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="product-card__information">
+                        <div class="product-card__information-title">
+                            <h3>By Berdi Begmenov / <span class="marker-gray">Костюм</span></h3>
+                        </div>
+                        <div class="product-card__information-price">
+                            <p>20 000 руб.</p>
+                            <span>Бесплатная доставка по Москве</span>
+                        </div>
+                        <div class="product-card__information-color">
+                            <p>Цвет</p>
+                            <a href=""><span class="color color--red"></span></a>
+                            <a href=""><span class="color color--blue"></span></a>
+                            <a href=""><span class="color color--yellow"></span></a>
+                        </div>
+                        <div class="product-card__information-size">
+                            <p>Размер</p>
+                            <span class="size"><a href="">M</a></span>
+                            <span class="size"><a href="">L</a></span>
+                            <span class="size"><a href="">XL</a></span>
+                        </div>
+                        <div class="product-card__information-btn">
+                            <button>Добавить в корзину</button>
+                            <p><a href="">Перейти к корзине</a></p>
+                        </div>
+                        <div class="product-card__tabs">
+                            <ul class="product-card__tabs-list">
+                                <li class="description active">Описание</li>
+                                <li class="structure">Состав</li>
+                                <li class="delivery">Доставка</li>
+                            </ul>
+                            <div class="product-card__tabs-content active">
+                                <p>Стильный и легкий спортивный костюм By Berdi Begmenov придаст вам некую элегантность даже в ресторане</p>
+                            </div>
+                            <div class="product-card__tabs-content">
+                                <p>Сделано с любовью</p>
+                            </div>
+                            <div class="product-card__tabs-content">
+                                <p>Доставим быстро</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="viewed">
+        <div class="container">
+            <div class="viewed__container">
+                <div class="viewed__title">
+                    <h2>Вы смотрели ранее</h2>
+                </div>
+                <div class="viewed__slider">
+                    <div class="viewed__item">
+                        <div class="viewed__card">
+                            <div class="viewed__item-logo">
+                                <span class="logo">SAJO</span>
+                            </div>
+                            <div class="viewed__item-img">
+                                <img src="img/image/photo%20of%20clothes.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="viewed__item-name">
+                            <p>By Berdi Begmenov / Костюм</p>
+                        </div>
+                        <div class="viewed__item-price">
+                            <span class="price">20 000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="viewed__item">
+                        <div class="viewed__card">
+                            <div class="viewed__item-logo">
+                                <span class="logo">SAJO</span>
+                            </div>
+                            <div class="viewed__item-img">
+                                <img src="img/image/photo%20of%20clothes.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="viewed__item-name">
+                            <p>By Berdi Begmenov / Костюм</p>
+                        </div>
+                        <div class="viewed__item-price">
+                            <span class="price">20 000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="viewed__item">
+                        <div class="viewed__card">
+                            <div class="viewed__item-logo">
+                                <span class="logo">SAJO</span>
+                            </div>
+                            <div class="viewed__item-img">
+                                <img src="img/image/photo%20of%20clothes.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="viewed__item-name">
+                            <p>By Berdi Begmenov / Костюм</p>
+                        </div>
+                        <div class="viewed__item-price">
+                            <span class="price">20 000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="viewed__item">
+                        <div class="viewed__card">
+                            <div class="viewed__item-logo">
+                                <span class="logo">SAJO</span>
+                            </div>
+                            <div class="viewed__item-img">
+                                <img src="img/image/photo%20of%20clothes.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="viewed__item-name">
+                            <p>By Berdi Begmenov / Костюм</p>
+                        </div>
+                        <div class="viewed__item-price">
+                            <span class="price">20 000 руб.</span>
+                        </div>
+                    </div>
+                    <div class="viewed__item">
+                        <div class="viewed__card">
+                            <div class="viewed__item-logo">
+                                <span class="logo">SAJO</span>
+                            </div>
+                            <div class="viewed__item-img">
+                                <img src="img/image/photo%20of%20clothes.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="viewed__item-name">
+                            <p>By Berdi Begmenov / Костюм</p>
+                        </div>
+                        <div class="viewed__item-price">
+                            <span class="price">20 000 руб.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews__container">
+                <div class="reviews__title">
+                    <h2>Отзывы</h2>
+                </div>
+                <form action="#" class="reviews__form">
+                    <input class="reviews__input-name" type="text" placeholder="Ваше имя">
+                <div class="review__comment-box">
+                    <input class="reviews__input-comment" type="text" placeholder="Комментарий">
+                    <input class="reviews__input-btn" type="submit" value="Отправить">
+                </div>
+                </form>
+                <div class="reviews__comments-list">
+                    <div class="reviews__comments-item">
+                        <div class="reviews__item-account">
+                           <div class="reviews__account-photo">
+                                <img src="img/product-card/icon/Photo-profil.svg" alt="">
+                           </div>
+                           <div class="reviews__account-name">
+                               <span class="profil-name">Иванов Д.</span>
+                           </div>
+                        </div>
+                        <div class="reviews__item-review">
+                            <p>Стильный и легкий спортивный костюм</p>
+                        </div>
+                    </div>
+                    <div class="reviews__comments-item">
+                        <div class="reviews__item-account">
+                           <div class="reviews__account-photo">
+                                <img src="img/product-card/icon/Photo-profil.svg" alt="">
+                           </div>
+                           <div class="reviews__account-name">
+                               <span class="profil-name">Иванов Д.</span>
+                           </div>
+                        </div>
+                        <div class="reviews__item-review">
+                            <p>Стильный и легкий спортивный костюм Стильный и легкий спортивный костюм By Berdi Begmenov придаст вам некую элегантность даже в ресторане </p>
+                        </div>
+                    </div>
+                    <div class="reviews__comments-item">
+                        <div class="reviews__item-account">
+                           <div class="reviews__account-photo">
+                                <img src="img/product-card/icon/Photo-profil.svg" alt="">
+                           </div>
+                           <div class="reviews__account-name">
+                               <span class="profil-name">Иванов Д.</span>
+                           </div>
+                        </div>
+                        <div class="reviews__item-review">
+                            <p>Стильный и легкий спортивный костюм Стильный и легкий спортивный костюм By Berdi Begmenov придаст вам некую элегантность даже в ресторане Стильный и легкий спортивный костюм By Berdi Begmenov придаст вам некую элегантность даже в ресторане </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-top">
+        <div class="container">
+            <div class="footer-top__container">
+                <div class="footer-top__block footer__block--1">
+                    <div class="footer-top__logo">
+                        <picture><img src="img/logo/logo.png" alt="Стильная одежда"></picture>
+                    </div>
+                    <div class="footer-top__text">
+                        <ul>
+                            <li class="li-head">ИНФОРМАЦИЯ</li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Почему именно мы?</a></li>
+                            <li><a href="#">Доставка и оплата</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-top__block footer-top__block--2">
+                    <ul>
+                        <li><a href=""><img src="img/image/instagram_logo_icon_134593.png" alt="наш вк"></a></li>
+                        <li><a href=""><img src="img/image/vk_logo_icon_134603.png" alt="наш инстаграм"></a></li>
+                        <li><a href=""><img src="img/image/telegram_logo_icon_134592.png" alt="наш"></a></li>
+                    </ul>
+                </div>
+                <div class="footer-top__block footer-top__block--3">
+                    <div class="footer-top__detals">
+                        <ul>
+                            <li class="li-head">ДОПОЛНИТЕЛЬНО</li>
+                            <li><a href="#">Обмен и Возврат</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Акции</a></li>
+                            <li><a href="#">Новости</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top__lk">
+                        <ul>
+                            <li class="li-head">ЛИЧНЫЙ КАБИНЕТ</li>
+                            <li><a href="#">Личный кабинет</a></li>
+                            <li><a href="#">История заказов</a></li>
+                            <li><a href="#">Рассылка</a></li>
+                            <li class="remark">(Получай промокоды, узнавай о новых скидках и акциях)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jQuery.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
